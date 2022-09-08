@@ -1,0 +1,10 @@
+C:\Users\simon\source\repos\UebungOOP\UebungOOP\bin\Debug\UebungOOP.exe.config
+C:\Users\simon\source\repos\UebungOOP\UebungOOP\bin\Debug\UebungOOP.exe
+C:\Users\simon\source\repos\UebungOOP\UebungOOP\bin\Debug\UebungOOP.pdb
+C:\Users\simon\source\repos\UebungOOP\UebungOOP\obj\Debug\UebungOOP.csprojAssemblyReference.cache
+C:\Users\simon\source\repos\UebungOOP\UebungOOP\obj\Debug\UebungOOP.Form1.resources
+C:\Users\simon\source\repos\UebungOOP\UebungOOP\obj\Debug\UebungOOP.Properties.Resources.resources
+C:\Users\simon\source\repos\UebungOOP\UebungOOP\obj\Debug\UebungOOP.csproj.GenerateResource.cache
+C:\Users\simon\source\repos\UebungOOP\UebungOOP\obj\Debug\UebungOOP.csproj.CoreCompileInputs.cache
+C:\Users\simon\source\repos\UebungOOP\UebungOOP\obj\Debug\UebungOOP.exe
+C:\Users\simon\source\repos\UebungOOP\UebungOOP\obj\Debug\UebungOOP.pdb
