@@ -1,0 +1,10 @@
+C:\Users\fimmen-siltmann\source\repos\WiderholungKlausur\WiderholungKlausur\bin\Debug\WiderholungKlausur.exe.config
+C:\Users\fimmen-siltmann\source\repos\WiderholungKlausur\WiderholungKlausur\bin\Debug\WiderholungKlausur.exe
+C:\Users\fimmen-siltmann\source\repos\WiderholungKlausur\WiderholungKlausur\bin\Debug\WiderholungKlausur.pdb
+C:\Users\fimmen-siltmann\source\repos\WiderholungKlausur\WiderholungKlausur\obj\Debug\WiderholungKlausur.csprojAssemblyReference.cache
+C:\Users\fimmen-siltmann\source\repos\WiderholungKlausur\WiderholungKlausur\obj\Debug\WiderholungKlausur.Form1.resources
+C:\Users\fimmen-siltmann\source\repos\WiderholungKlausur\WiderholungKlausur\obj\Debug\WiderholungKlausur.Properties.Resources.resources
+C:\Users\fimmen-siltmann\source\repos\WiderholungKlausur\WiderholungKlausur\obj\Debug\WiderholungKlausur.csproj.GenerateResource.cache
+C:\Users\fimmen-siltmann\source\repos\WiderholungKlausur\WiderholungKlausur\obj\Debug\WiderholungKlausur.csproj.CoreCompileInputs.cache
+C:\Users\fimmen-siltmann\source\repos\WiderholungKlausur\WiderholungKlausur\obj\Debug\WiderholungKlausur.exe
+C:\Users\fimmen-siltmann\source\repos\WiderholungKlausur\WiderholungKlausur\obj\Debug\WiderholungKlausur.pdb

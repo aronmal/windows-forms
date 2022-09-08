@@ -1,0 +1,10 @@
+C:\Users\fimmen-siltmann\source\repos\SchereSteinPapier\SchereSteinPapier\bin\Debug\SchereSteinPapier.exe.config
+C:\Users\fimmen-siltmann\source\repos\SchereSteinPapier\SchereSteinPapier\bin\Debug\SchereSteinPapier.exe
+C:\Users\fimmen-siltmann\source\repos\SchereSteinPapier\SchereSteinPapier\bin\Debug\SchereSteinPapier.pdb
+C:\Users\fimmen-siltmann\source\repos\SchereSteinPapier\SchereSteinPapier\obj\Debug\SchereSteinPapier.csprojAssemblyReference.cache
+C:\Users\fimmen-siltmann\source\repos\SchereSteinPapier\SchereSteinPapier\obj\Debug\SchereSteinPapier.Form1.resources
+C:\Users\fimmen-siltmann\source\repos\SchereSteinPapier\SchereSteinPapier\obj\Debug\SchereSteinPapier.Properties.Resources.resources
+C:\Users\fimmen-siltmann\source\repos\SchereSteinPapier\SchereSteinPapier\obj\Debug\SchereSteinPapier.csproj.GenerateResource.cache
+C:\Users\fimmen-siltmann\source\repos\SchereSteinPapier\SchereSteinPapier\obj\Debug\SchereSteinPapier.csproj.CoreCompileInputs.cache
+C:\Users\fimmen-siltmann\source\repos\SchereSteinPapier\SchereSteinPapier\obj\Debug\SchereSteinPapier.exe
+C:\Users\fimmen-siltmann\source\repos\SchereSteinPapier\SchereSteinPapier\obj\Debug\SchereSteinPapier.pdb
