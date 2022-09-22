@@ -1,0 +1,10 @@
+D:\AP22_Robin_Mueller\AP22_Robin_Mueller\bin\Debug\AP22_Robin_Mueller.exe.config
+D:\AP22_Robin_Mueller\AP22_Robin_Mueller\bin\Debug\AP22_Robin_Mueller.exe
+D:\AP22_Robin_Mueller\AP22_Robin_Mueller\bin\Debug\AP22_Robin_Mueller.pdb
+D:\AP22_Robin_Mueller\AP22_Robin_Mueller\obj\Debug\AP22_Robin_Mueller.csprojAssemblyReference.cache
+D:\AP22_Robin_Mueller\AP22_Robin_Mueller\obj\Debug\AP22_Robin_Mueller.Form1.resources
+D:\AP22_Robin_Mueller\AP22_Robin_Mueller\obj\Debug\AP22_Robin_Mueller.Properties.Resources.resources
+D:\AP22_Robin_Mueller\AP22_Robin_Mueller\obj\Debug\AP22_Robin_Mueller.csproj.GenerateResource.cache
+D:\AP22_Robin_Mueller\AP22_Robin_Mueller\obj\Debug\AP22_Robin_Mueller.csproj.CoreCompileInputs.cache
+D:\AP22_Robin_Mueller\AP22_Robin_Mueller\obj\Debug\AP22_Robin_Mueller.exe
+D:\AP22_Robin_Mueller\AP22_Robin_Mueller\obj\Debug\AP22_Robin_Mueller.pdb
