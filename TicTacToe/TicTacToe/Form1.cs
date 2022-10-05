@@ -18,9 +18,7 @@ namespace TicTacToe
         }
 
         bool bZug = true; // X ist am Zug, wenn true; O ist am Zug, wenn false
-        int iCounter = 1;
-        int iGewinnerCountX = 0;
-        int iGewinnerCountO = 0;
+ 
         private void SpielzugClick(object sender, EventArgs e)
         {
             //ButtonDisablen();
@@ -30,7 +28,7 @@ namespace TicTacToe
                 return;
             }
             Button bButton = (Button)sender;
-
+            
             /*
             if (bZug == false)
             {
@@ -44,23 +42,25 @@ namespace TicTacToe
             }
             */
 
-
-
             bButton.Text = bZug ? "X" : "O";
+
+          
             ErmittelGewinner();
+
             bButton.Enabled = false;
             bZug = !bZug;
-            iCounter++;
-
-            //Klausur 
-            //Zufallszaheln 
-            //Random rndZufallszahlen = new Random();
-            //int iZahl = rndZufallszahlen.Next(1, 50);
-            //MessageBox.Show(iZahl.ToString());
 
 
-            //Verarbeiten Tag 
-            //int iTag = Convert.ToInt32(bButton.Tag);
+            //Zur Anschauung für die Klausur
+            //Zufallszahlen
+            Random rdnZufallsgenerator = new Random();
+            int iZahl = rdnZufallsgenerator.Next(1, 50);
+            MessageBox.Show(iZahl.ToString());
+
+            //Verarbeiten von Tags
+            int iTag = Convert.ToInt32(bButton.Tag);
+
+
 
         }
 
@@ -75,7 +75,7 @@ namespace TicTacToe
         }
         */
 
-        void ButtonDisablen()
+        void ButtonDisablen() 
         {
             //int[] iZahlenarray = new int[6];
             Button[] bButtonArray = { A1, A2, A3, B1, B2, B3, C1, C2, C3 };
@@ -84,16 +84,17 @@ namespace TicTacToe
             {
                 bButtonArray[i].Enabled = false;
             }
+        
+        
         }
 
 
 
-        void ErmittelGewinner()
+        void ErmittelGewinner() 
         {
-
             bool bGewinnerStehtFest = false;
 
-            if (A1.Text == A2.Text && A2.Text == A3.Text && A1.Text != "")
+            if (A1.Text == A2.Text && A2.Text == A3.Text && A1.Text !="")
             {
                 bGewinnerStehtFest = true;
             }
@@ -126,33 +127,28 @@ namespace TicTacToe
                 bGewinnerStehtFest = true;
             }
 
-            if (bGewinnerStehtFest == false && iCounter == 9)
-            {
-                MessageBox.Show("Patt");
-                ButtonDisablen();
-                iCounter = 0;
-            }
 
             if (bGewinnerStehtFest && bZug == true)
             {
                 MessageBox.Show("Spieler X hat gewonnen");
                 ButtonDisablen();
-                iCounter = 0;
-                iGewinnerCountX++;
             }
             else if (bGewinnerStehtFest && bZug == false)
             {
                 MessageBox.Show("Spieler O hat gewonnen");
                 ButtonDisablen();
-                iCounter = 0;
-                iGewinnerCountO++;
             }
+       
+           
         }
 
-        void Restart()
+        private void neustartToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            bZug = true; //Zurücksetzen der globalen Variablen führt dazu, dass X wieder anfängt
+            //Hausaufgabe
 
+            //Zurücksetzen der globalen Variablen
+            bZug = true; 
+         
             Button[] bButtonArray = { A1, A2, A3, B1, B2, B3, C1, C2, C3 };
 
             for (int i = 0; i < bButtonArray.Length; i++)
@@ -160,17 +156,10 @@ namespace TicTacToe
                 bButtonArray[i].Enabled = true;
                 bButtonArray[i].Text = "";
             }
-            iCounter = 0;
-        }
-
-
-        private void neustartToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Restart();
         }
 
         private void beendenToolStripMenuItem_Click(object sender, EventArgs e)
-        {
+        {   
             //Hausaufgabe
             Application.Exit();
         }
@@ -180,24 +169,5 @@ namespace TicTacToe
             //dieses Event muss noch geschrieben werden
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            textBox1.Text = (iGewinnerCountX.ToString());
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-            textBox1.Text = (iGewinnerCountO.ToString());
-        }
     }
 }
